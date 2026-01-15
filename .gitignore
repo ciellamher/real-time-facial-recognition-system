@@ -1,0 +1,11 @@
+# Ignore the folder with my photos
+training/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python system files
+__pycache__/
+
+# Ignore the virtual environment (optional but recommended)
+.venv/
