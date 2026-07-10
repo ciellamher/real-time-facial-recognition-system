@@ -1,27 +1,28 @@
 **real-time-facial-recognition-system**
-A computer vision pipeline for facial detection and identity recognition built on advanced feature extraction.
+A robust computer vision pipeline for real-time facial detection, alignment, and identity recognition built on advanced feature extraction.
 
 ### 01 — INSTALL
 
 Bash
 > git clone https://github.com/ciellamher/real-time-facial-recognition-system.git
 > cd real-time-facial-recognition-system
-> pip install opencv-python face_recognition
+> pip install opencv-python dlib
 
 ---
 
 ### 02 — USE
 
-Launch the recognition pipeline:
-
 > python recognize.py
+
+Ensure your camera is connected before launching the recognition pipeline.
 
 ---
 
 ### 03 — WHAT'S INSIDE
 
-- `recognize.py` — The real-time video stream processor.
-- `dataset/` — Image encodings and reference files.
+- `recognize.py` — The real-time video stream processor and main loop.
+- `dataset/` — Image encodings and reference identity files.
+- `utils.py` — Helper functions for image normalization and bounding boxes.
 
 ---
 
